@@ -17,7 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 mkdir -p /tmp/editvorbis/
-vorbiscomment $1 > /tmp/editvorbis/comment.txt
+vorbiscomment "$1" > /tmp/editvorbis/comment.txt
 $EDITOR /tmp/editvorbis/comment.txt
-vorbiscomment -w -c /tmp/editvorbis/comment.txt $1
+vorbiscomment -w -c /tmp/editvorbis/comment.txt "$1"
 rm -rf /tmp/editvorbis/
