@@ -1,0 +1,26 @@
+==================
+*** EditVorbis ***
+==================
+A shell script to allow you to edit vorbis tags using your favorite
+editor.
+
+# Dependencies
+--------------
+To use this script you will require the `vorbiscomment' tool.
+
+# Installation
+--------------
+To install, you can use the `install.sh' script. This will install the
+script as `$PREFIX/bin/editvorbis'. `$PREFIX' is an environment variable
+that can be set, and is assigned to `/usr' by default (you may want to
+use `/usr/local' instead).
+
+# Usage
+-------
+Run the script with the `-h' option to get help information.
+
+# License
+---------
+This script is licensed under the terms and conditions of the GNU
+Affero General Public License version 3 or greater (see
+`LICENSE' file for more information).
