@@ -1,5 +1,5 @@
-#!/bin/sh
-if [ -z ${$PREFIX+x} ];
+#!/bin/bash
+if [ -z ${PREFIX+x} ];
 then
 	PREFIX=/usr
 fi
