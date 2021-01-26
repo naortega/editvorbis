@@ -62,7 +62,7 @@ if [ $? == 1 ]; then
 fi
 
 # check if the file exists
-if [ ! -f $1 ]; then
+if [ ! -f "$1" ]; then
 	echo "Regular file $1 does not exist."
 	exit 1
 fi
